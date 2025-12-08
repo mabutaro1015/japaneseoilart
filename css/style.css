@@ -179,13 +179,13 @@ footer P {
     justify-content: space-between;
 }
 .location-info {
-    width: 22%;
+    width: 30%;
 }
 .location-info p {
     padding: 12px 10px;
 }
 .location-map {
-    width: 77%;
+    width: 67%;
 }
 /* iframe */
 iframe {
