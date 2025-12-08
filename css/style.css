@@ -203,3 +203,18 @@ iframe {
 #contact .page-title {
     text-align: center;
 }
+
+/*作品集
+--------------------------------------*/
+#pictures {
+    background-image: url(../images/main2.jpg);
+    height: 230px;
+    margin-bottom: 40px;
+}
+#pictures h2 {
+    color: #432;
+    font-size: 4rem;
+    }
+#pictures .page-title {
+    text-align: center;
+}
