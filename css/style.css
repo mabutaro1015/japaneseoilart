@@ -112,7 +112,7 @@ img {
 /*プロフィール
 --------------------------------------*/
 #profile {
-    background-image: url(../images/main2.jpg);
+    background-image: url(../images/main2.JPG);
     height: 230px;
     margin-bottom 40px;
 }
@@ -133,5 +133,40 @@ footer {
 footer P {
     color: #fff;
     font-size: 0.875rem;
+}
+
+/*メディアクエリ モバイル版
+------------------------------------------*/
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+
+    /*HEADER*/
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        margin: 0 10px;
+    }
+
+    /*HOME*/
+    .home-content {
+        margin-top: 20px;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    body h3 {
+        font-size: 1.5rem;
+    }
+    body p {
+        font-size: 1.275rem;
+    }
+    body li {
+        font-size: 1.275rem;
+    }
 
 }
