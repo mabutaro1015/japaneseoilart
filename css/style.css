@@ -10,6 +10,19 @@ body {
     line-height:1.7;
     color: #432;
 }
+h2, {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500; /* やや太字程度 */
+    border-bottom: none; /* 薄いピンク系の罫線で和のアクセント */
+    padding-bottom: 5px;
+}
+h3 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500; /* やや太字程度 */
+    border-bottom: 1px solid #d58d9d; /* 薄いピンク系の罫線で和のアクセント */
+    padding-bottom: 5px;
+}
+
 a {
     text-decoration: none;
 }
@@ -116,5 +129,4 @@ footer {
 footer P {
     color: #fff;
     font-size: 0.875rem;
-
 }
