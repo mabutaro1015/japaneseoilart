@@ -10,7 +10,7 @@ body {
     line-height:1.7;
     color: #432;
 }
-h2, {
+h2 {
     font-family: 'Noto Serif JP', serif;
     font-weight: 500; /* やや太字程度 */
     border-bottom: none; /* 薄いピンク系の罫線で和のアクセント */
@@ -112,9 +112,9 @@ img {
 /*プロフィール
 --------------------------------------*/
 #profile {
-    background-image: url(../images/main2.JPG);
+    background-image: url(../images/main2.jpg);
     height: 230px;
-    margin-bottom 40px;
+    margin-bottom: 40px;
 }
 #profile h2 {
     color: #fff;
@@ -169,4 +169,30 @@ footer P {
         font-size: 1.275rem;
     }
 
+}
+/*店舗情報･地図*/
+#location {
+    padding: 4% 0;
+}
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.location-info {
+    width: 22%;
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.location-map {
+    width: 77%;
+}
+/* iframe */
+iframe {
+    width: 100%;
+}
+#contact {
+    background-image: url(../images/main2.jpg);
+    height: 230px;
+    margin-bottom: 40px;
 }
