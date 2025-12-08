@@ -21,6 +21,10 @@ h3 {
     font-weight: 500; /* やや太字程度 */
     border-bottom: 1px solid #d58d9d; /* 薄いピンク系の罫線で和のアクセント */
     padding-bottom: 5px;
+    margin-left: 15px;
+}
+p {
+    margin-left: 10px;
 }
 
 a {
@@ -108,7 +112,7 @@ img {
 /*プロフィール
 --------------------------------------*/
 #profile {
-    background-image: url(../images/main2.jpg);
+    background-image: url(../images/main2.JPG);
     height: 230px;
     margin-bottom 40px;
 }
@@ -129,6 +133,4 @@ footer {
 footer P {
     color: #fff;
     font-size: 0.875rem;
-
 }
-
