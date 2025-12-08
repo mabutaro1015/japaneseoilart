@@ -92,3 +92,28 @@ img {
 #home.page-title {
     text-transform: none;
 }
+/*プロフィール
+--------------------------------------*/
+#profile {
+    background-image: url(../images/main-bg.JPG);
+    height: 230px;
+    margin-bottom 40px;
+}
+#profile h2 {
+    color: #fff;
+    font-size: 4rem;
+    }
+#profile .page-title {
+    text-align: center;
+}
+/*フッター
+----------------------------------------*/
+footer {
+    background-color: #432;
+    text-align: center;
+    padding: 26px;
+}
+footer P {
+    color: #fff;
+    font-size: 0.875rem;
+}
