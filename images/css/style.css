@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/*共通部分
+----------------------------------------------*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family:"Yu Gothic Medium", "游ゴシック Medium", "YuGothic","游ゴシック体","ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height:1.7;
+    color: #432;
+}
+h2, {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500; /* やや太字程度 */
+    border-bottom: none; /* 薄いピンク系の罫線で和のアクセント */
+    padding-bottom: 5px;
+}
+h3 {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500; /* やや太字程度 */
+    border-bottom: 1px solid #d58d9d; /* 薄いピンク系の罫線で和のアクセント */
+    padding-bottom: 5px;
+    margin-left: 15px;
+}
+p {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*HEADER
+-------------------------------------------------*/
+.logo {
+    width: 300px;
+    margin-top: 14px;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+   color: #432; 
+}
+.main-nav a:hover {
+    color: #a888be;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*HOME
+-------------------------------------*/
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+/*見出し*/
+.page-title {
+    font-size: 5rem;
+    font-family: "Philosopher", serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #432;
+}
+
+/*ボタン*/
+.button {
+    font-size: 1.375rem;
+    background: #a888be;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover {
+    background: #b6a4c2;
+}
+/*大きな背景画像*/
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+}
+#home {
+    background-image: url(../images/main2.jpg);
+    min-height: 100vh;
+}
+#home.page-title {
+    text-transform: none;
+}
+/*プロフィール
+--------------------------------------*/
+#profile {
+    background-image: url(../images/main2.JPG);
+    height: 230px;
+    margin-bottom 40px;
+}
+#profile h2 {
+    color: #fff;
+    font-size: 4rem;
+    }
+#profile .page-title {
+    text-align: center;
+}
+/*フッター
+----------------------------------------*/
+footer {
+    background-color: #432;
+    text-align: center;
+    padding: 26px;
+}
+footer P {
+    color: #fff;
+    font-size: 0.875rem;
+}
