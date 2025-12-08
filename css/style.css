@@ -112,7 +112,7 @@ img {
 /*プロフィール
 --------------------------------------*/
 #profile {
-    background-image: url(../images/main2.JPG);
+    background-image: url(../images/main2.jpg);
     height: 230px;
     margin-bottom 40px;
 }
@@ -133,4 +133,5 @@ footer {
 footer P {
     color: #fff;
     font-size: 0.875rem;
+
 }
