@@ -254,5 +254,16 @@ iframe {
     .sns-box {
         margin-bottom: 30px;
     }
+        .artwork-gallery h5 {
+    font-family: Noto Serif JP;
+    font-weight: 800;
+    color: #432;
+    }
+    .artwork-gallery p {
+        font-family: Noto Serif JP;
+        font-weight: 400;
+        color: #432;
+    }
+
 
 
