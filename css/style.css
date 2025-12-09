@@ -187,6 +187,18 @@ iframe {
     text-align: center;
 }
 
+.artwork-gallery img {
+    /* 高さを固定（例: 500px）*/
+    height: 600px; 
+    
+    /* 横幅は親要素(カード)いっぱい */
+    width: 100%;
+
+    object-fit: cover;
+}
+
+
+
 /*メディアクエリ モバイル版
 ------------------------------------------*/
 @media (max-width: 600px) {
@@ -233,5 +245,4 @@ iframe {
     .sns-box {
         margin-bottom: 30px;
     }
-
 
